@@ -1,0 +1,141 @@
+html {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 6px;
+    }
+}
+
+
+
+* {
+    font-family: Roboto;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.navigation {
+    position: fixed;
+    display: flex;
+    color: white;
+    background-color: khaki;
+    width:100%;
+    height: 5.3125rem;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.navigation h1 {
+    padding-left: 1.875rem;
+    color: white;
+}
+.navigation ul {
+    padding-right: 1.875rem;
+    font-size: 1.25rem;
+}
+
+.navigation li {
+    list-style-type: none;
+    display: inline;
+}
+
+.navigation li a{
+    color: white
+}
+.navigation li a:hover {
+    color: red;
+}
+
+.navigation li a:active {
+    color: purple
+}
+
+#story {
+    position: relative;
+    padding-top: 6.25rem;
+    padding-bottom: 1.25rem;
+    background-color: pink;
+}
+
+#story p {
+    padding-bottom: 1.25rem;
+    font-size: 1rem;
+}
+#story img {
+    border: 3px solid white;
+    height: auto;
+    width: 300px;
+}
+
+#molestables {
+    background-color: paleturquoise;
+}
+
+#molestables h1 {
+    padding-top: 1.25rem;
+}
+
+#molestables h3 {
+    padding-top: 0.9375rem;
+    padding-bottom: 0.625rem;
+}
+
+.selections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 1.25rem;
+}
+
+.selections h2 {
+    padding-bottom: 0.9375rem;
+}
+
+.selection-image img{
+   width: 21.875rem;
+   height: 21.875rem;
+   border: 0.1875rem solid white;
+   flex-grow: 1;
+}
+
+#team {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    background-color: lightcoral;
+}
+
+#team h1 {
+    padding-bottom: 0.6667rem;
+}
+.teammate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.members-image img {
+    width: 15.625rem;
+    height: 15.625rem;
+    border: 0.1875rem solid white;
+}
+
+footer {
+    padding: 2.5rem;
+    background-color: khaki;
+}
+
+.copyright {
+    text-align: left;
+}
+
+
+
